@@ -62,6 +62,8 @@ class VibrationService : Service() {
             Constants.STOPFOREGROUND_ACTION -> {
                 // The stop service code
                 Log.i("TiFlog", "Received STOP foreground service intent");
+                stopForeground(true)
+                stopSelfResult(startId)
                 return START_NOT_STICKY
             }
         }

@@ -1,10 +1,5 @@
 <resources>
     <string name="app_name">Very Frequent Wearable Alarm</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
     <string name="channel_name">Vibration Service Channel Name</string>
     <string name="channel_description">This notification channel is used to deliver vibrations to the device.</string>
     <string name="channel_id">vibration_service_channel</string>

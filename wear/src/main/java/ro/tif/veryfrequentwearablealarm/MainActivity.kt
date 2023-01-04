@@ -49,6 +49,6 @@ class MainActivity : Activity() {
     fun stopVibrationService() {
         val intent = Intent(this, VibrationService::class.java)
         intent.action = Constants.STOPFOREGROUND_ACTION
-        startService(intent)
+        startForegroundService(intent)
     }
 }
